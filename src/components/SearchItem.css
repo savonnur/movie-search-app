@@ -1,0 +1,58 @@
+h3 {
+  color: white;
+  text-align: center;
+}
+
+.movie {
+  width: 300px;
+  background-color: rgb(24, 24, 24);
+  width: 250px;
+  border-radius: 2px;
+  margin: 1rem;
+  transition: transform 0.2s;
+  padding-bottom: 1rem;
+}
+
+.movie:hover {
+  transition-delay: 0.4s;
+  transform: scale(1.2);
+  outline-style: solid;
+  outline-width: 1px;
+  outline-color: rgb(99, 99, 99);
+}
+
+.movie img {
+  max-width: 100%;
+}
+
+.movie:hover button {
+  opacity: 1;
+  transition: opacity 0.2s 0.5s;
+}
+
+.info-btn {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  opacity: 0;
+  background: #3d3d3d;
+  background-image: -webkit-linear-gradient(top, #3d3d3d, #454545);
+  background-image: -moz-linear-gradient(top, #3d3d3d, #454545);
+  background-image: -ms-linear-gradient(top, #3d3d3d, #454545);
+  background-image: -o-linear-gradient(top, #3d3d3d, #454545);
+  background-image: linear-gradient(to bottom, #3d3d3d, #454545);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 25px 10px 25px;
+  text-decoration: none;
+}
+
+.info-btn:hover {
+  background: #5c5c5c;
+  text-decoration: none;
+}
