@@ -12,6 +12,15 @@
   outline-width: 2px;
 }
 
+@media screen and (max-device-width: 640px) {
+  .modal-style {
+    position: none;
+    height: 90vh;
+    width: 90vw;
+    overflow: scroll;
+  }
+}
+
 .overlay-style {
   position: fixed;
   top: 0;
@@ -20,6 +29,7 @@
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.7);
   z-index: 1000;
+  overflow: hidden;
 }
 
 .modal-backdrop-poster {
